@@ -24,3 +24,28 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My Answer */
+
+/* the code below ensures the text are centered */
+body {
+  text-align: center;
+}
+
+/* the code below creates a 32px between the title and the items */
+.title {
+  margin-bottom: 32px;
+}
+.container {
+  border: 1px solid black;
+  display: flex;
+  /* the code below creates 52px between each item */
+  gap: 52px;
+  justify-content: center;
+}
+
+.plant-information {
+  border: 1px solid black;
+  max-width: 200px;
+}
+
