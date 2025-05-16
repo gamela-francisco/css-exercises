@@ -13,6 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .modal {
@@ -20,6 +21,9 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 20px;
+   /* border to see */
+   border: 2px solid black;
 }
 
 .icon {
@@ -33,6 +37,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+   /* border to see */
+   border: 2px solid black;
+
 }
 
 .close-button {
@@ -48,12 +55,18 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+   /* border to see */
+   border: 2px solid black;
+
 }
 
 button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+   /* border to see */
+   border: 2px solid black;
+
 }
 
 button.continue {
@@ -66,4 +79,10 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* my solution */
+.header {
+  font-weight: bold;
+  font-size: 1.3rem;
 }
