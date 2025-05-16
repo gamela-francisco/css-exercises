@@ -21,9 +21,12 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+   /* styles solution */
   padding: 20px;
-   /* border to see */
-   border: 2px solid black;
+  display: flex; 
+  gap: 16px
+  
 }
 
 .icon {
@@ -37,8 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-   /* border to see */
-   border: 2px solid black;
+  
 
 }
 
@@ -55,8 +57,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
-   /* border to see */
-   border: 2px solid black;
+   
 
 }
 
@@ -64,8 +65,7 @@ button {
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-   /* border to see */
-   border: 2px solid black;
+  
 
 }
 
@@ -83,6 +83,20 @@ button.cancel {
 
 /* my solution */
 .header {
+  display: flex;
   font-weight: bold;
   font-size: 1.3rem;
+  display: flex; 
+  align-items: center;
+  margin-bottom: 8px;
+  justify-content: space-between;
+}
+
+
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
 }
